@@ -1,16 +1,29 @@
 
+body{
+    background-color: rgb(34, 33, 34);
+}
 figcaption{
-    color: rgb(61, 61, 131);
-    font-size: 20px;
+    color: rgb(26, 26, 201);
+    font-size: 30px;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
 img{
-max-width: 100%;
-height: auto;
-border-radius: 8px;
-padding-top: 10%;
-padding-right: 10%;
+    border-radius: 6px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding-top: 10%;
+    padding-right: 10%;
+    border: 3px solid blue;
 }
 .eus{
     width: 200%;
 }
+.facebook, .instagram{
+    font-size: 3rem;
+}
+.instagram{
+    color: hsl(283, 75%, 25%);
+}
+
