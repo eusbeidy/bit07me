@@ -2,10 +2,15 @@
 figcaption{
     color: rgb(61, 61, 131);
     font-size: 20px;
-    
+    text-align: center;
 }
 img{
-    width: 70%;
+max-width: 100%;
 height: auto;
 border-radius: 8px;
+padding-top: 10%;
+padding-right: 10%;
+}
+.eus{
+    width: 200%;
 }
