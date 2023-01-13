@@ -1,29 +1,69 @@
 
 body{
-    background-color: rgb(34, 33, 34);
+    box-sizing: border-box;
+    background: linear-gradient(0deg, rgb(160, 217, 219) 0%, rgba(233, 171, 220, 0.908) 100%);
 }
 figcaption{
     color: rgb(26, 26, 201);
     font-size: 30px;
-    text-align: center;
     font-family: 'Merriweather', serif;
 }
+h2{
+    font-size: 2rem;
+    color: #203E5F;
+}
 img{
-    border-radius: 6px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    padding-top: 10%;
-    padding-right: 10%;
-    border: 3px solid blue;
+    border-radius: 1rem;
+    max-width: 70%;
+    height: 30%;
+    border: 3px solid rgb(128, 96, 128);
+    
 }
-.eus{
-    width: 200%;
-}
-.facebook, .instagram{
+.facebook, .instagram, .github, .linkedin{
     font-size: 3rem;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
 }
 .instagram{
     color: hsl(283, 75%, 25%);
 }
+.facebook{
+    color: blue;
+}
+.github{
+    color: black;
+}
+.p{
+    padding: 8px;
+    text-align: center;
+}
+/*estilos para pantallas grandes*/
+
+@media screen and (min-width: 768px){
+    
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h2{
+        text-align: center;
+    }
+    
+    main{
+        flex-basis: 70%;
+    }
+    aside{
+        flex-basis: 28%;
+        flex-direction: column;
+        border-radius: 10px;
+        height: 40%;
+        margin-top: 40px;
+        
+    }
+    footer{
+        width: 100%;
+    }
+}
+
 
