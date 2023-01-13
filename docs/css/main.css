@@ -5,8 +5,13 @@ body{
 }
 figcaption{
     color: rgb(26, 26, 201);
-    font-size: 30px;
+    font-size: 16px;
     font-family: 'Merriweather', serif;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    color: blueviolet;
 }
 h2{
     font-size: 2rem;
@@ -48,6 +53,10 @@ img{
     }
     h2{
         text-align: center;
+    }
+    header{
+       width: 100%;
+       height: 20%;
     }
     
     main{
