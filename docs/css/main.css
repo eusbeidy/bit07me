@@ -178,9 +178,7 @@ nav .nul .li a{
 #check:checked + .nul{
    right: 0;
 }
-.nul{
 
-}
 main,aside{
     text-align: center;
     margin-left: 50px;
@@ -199,5 +197,8 @@ img{
 }
 .i{
     font-size: 3rem;
+}
+h1{
+    font-size: 25px;
 }
 }
