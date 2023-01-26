@@ -8,7 +8,7 @@
 
 }
 body{
-    background: linear-gradient(0deg,rgb(199, 224, 224) 0%, rgba(102, 133, 143, 0.908) 100%) ;
+    background:linear-gradient(0deg, rgb(106, 156, 175) 0%, rgba(174, 217, 228, 0.908) 100%) ;
 }
 nav{
     background:linear-gradient(0deg, rgb(178, 201, 202) 0%, rgba(177, 163, 174, 0.908) 100%) ;
@@ -44,7 +44,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a:hover{
-    background: violet;
+    background: rgb(143, 216, 221);
     transition: 0.5s;
 }
 .checkbtn{
@@ -69,7 +69,11 @@ img{
 .imgAcademicos{
     width: 50%;
     height: 10%;
-    border-radius: 10%;
+}
+.imgcc{
+    width: 20%;
+    height: 10%;
+    border-radius: 50%;
 }
 
 figcaption{
