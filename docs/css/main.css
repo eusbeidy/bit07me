@@ -42,12 +42,35 @@ nav ul li a{
     font-size: 14px;
     padding: 7px 5px;
     border-radius: 5px;
-    text-transform: uppercase;
 }
 li a:hover{
     background: rgb(143, 216, 221);
     transition: 0.5s;
 }
+.nul2{
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+
+}
+
+.nul2 li a{
+    display: block;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.nul li:hover .nul2{
+  visibility: visible;
+  opacity: 1;
+}
+
 .checkbtn{
     font-size: 30px;
     color: #fff;
@@ -190,11 +213,35 @@ nav .nul .li a{
     font-size: 14px;
 }
 .li a:hover{
-    background: none;
+    background: none ;
     color: rgb(140, 175, 204);
+    transition: 0.5s;
 }
 #check:checked + .nul{
    left: 0;
+}
+.nul2{
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    width: 170px;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+
+}
+
+.nul2 li a{
+    display: block;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+
+.nul li:hover .nul2{
+  visibility: visible;
+  opacity: 1;
 }
 
 main,aside{
@@ -215,9 +262,6 @@ section{
     margin-left: 0%;
 }
 
-/*img{
-    height: 150px;
-    max-width: 100%;
-}*/
+
 
 }
